@@ -1,0 +1,205 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        /* background-color: aqua; */
+        width: 300px;
+        height: 300px;
+        animation: rotate 50s linear infinite;
+    }
+    
+    .outercircle {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        /* background-color: green; */
+        border-radius: 50%;
+        border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .apple {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        top: -35%;
+        left: -3%;
+        animation: anti 50s linear infinite;
+    }
+    
+    .apple img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .google {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: -52%;
+        left: 87%;
+        animation: anti 50s linear infinite;
+    }
+    
+    .google img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .microsoft {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: -38%;
+        left: 43%;
+        animation: anti 50s linear infinite;
+    }
+    
+    .microsoft img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .amazon {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: -130%;
+        animation: anti 50s linear infinite;
+    }
+    
+    .amazon img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .meta {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: -136%;
+        left: 90%;
+        animation: anti 50s linear infinite;
+    }
+    
+    .meta img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .netflix {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: -183%;
+        left: 43%;
+        animation: anti 50s linear infinite;
+    }
+    
+    .netflix img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .middlecircle {
+        width: 75%;
+        height: 75%;
+        background-color: lightgray;
+        border: 1px solid blue;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .innercircle {
+        width: 60%;
+        height: 60%;
+        border: 1px solid blue;
+        background-color: white;
+        border-radius: 50%;
+        animation: anti 25s linear infinite;
+    }
+    
+    .uber {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        animation: rotate 50s linear infinite;
+    }
+    
+    .uber img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .adobe {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: 9%;
+        animation: rotate 50s linear infinite;
+    }
+    
+    .adobe img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .linkedin {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        left: 71%;
+        top: -22%;
+        animation: rotate 50s linear infinite;
+    }
+    
+    .linkedin img {
+        width: 100%;
+        height: 100%
+    }
+    
+    .flipkart {
+        position: relative;
+        width: 43px;
+        height: 35px;
+        left: 80%;
+        top: -25%;
+        animation: rotate 50s linear infinite;
+    }
+    
+    .flipkart img {
+        width: 100%;
+        height: 100%
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes anti {
+        from {
+            transform: rotate(360deg);
+        }
+        to {
+            transform: rotate(0deg);
+        }
+    }
